@@ -7,6 +7,7 @@ SITENAME = 'Marcelo Cueto -  Desarrollador web microservicios / Django - Django 
 SITEURL = ''
 
 PATH = 'content'
+THEME = 'themes/marcelocueto'
 
 TIMEZONE = 'America/Santiago'
 
