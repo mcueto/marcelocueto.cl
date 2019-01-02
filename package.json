@@ -1,0 +1,29 @@
+{
+  "name": "marcelocueto",
+  "version": "1.0.0",
+  "description": "marcelo cueto's personal blog",
+  "main": "output/index.html",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "pelican content && ./node_modules/http-server/bin/http-server output/ -p 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcueto/marcelocueto.cl.git"
+  },
+  "keywords": [
+    "personal",
+    "blog",
+    "mcueto"
+  ],
+  "author": "Marcelo Cueto",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mcueto/marcelocueto.cl/issues"
+  },
+  "homepage": "https://github.com/mcueto/marcelocueto.cl#readme"
+}
