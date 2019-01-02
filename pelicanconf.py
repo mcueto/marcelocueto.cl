@@ -30,6 +30,9 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
+# Social networks
+GITHUB_URL = 'https://github.com/mcueto'
+
 DEFAULT_PAGINATION = 3
 
 # Uncomment following line if you want document-relative URLs when developing
