@@ -22,10 +22,12 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (
+    ('mi perfil de Github', 'https://github.com/mcueto'),
+    ('mi perfil de Linkedin', 'https://www.linkedin.com/in/marcelo-cueto-%C3%A1lvarez-139b59102/'),
+    # ('Jinja2', 'http://jinja.pocoo.org/'),
+    # ('You can modify those links in your config file', '#'),
+)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
