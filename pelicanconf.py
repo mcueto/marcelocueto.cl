@@ -3,7 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Marcelo Cueto'
-SITENAME = 'Marcelo Cueto -  Desarrollador web microservicios / Django - Django Rest Framework'
+SITENAME = 'Marcelo Cueto'
+SITESUBTITLE = 'Desarrollador web microservicios / Django - Django Rest Framework'
 SITEURL = ''
 
 PATH = 'content'
