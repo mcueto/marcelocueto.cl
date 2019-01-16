@@ -24,9 +24,13 @@ p:first-child {
   margin: 0;
 }
 
-p a {
+p a, article ul li a {
   text-decoration: underline;
 }
+p img {
+  max-width: 100%;
+}
+
 h1,
 h2,
 h3,
