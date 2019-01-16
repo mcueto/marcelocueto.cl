@@ -29,6 +29,9 @@ p a, article ul li a {
 }
 p img {
   max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1,
@@ -49,7 +52,7 @@ a:focus {
 }
 a img:hover,
 a img:focus {
-  cursor: zoom-in;
+  cursor: pointer;
 }
 blockquote {
   color: #808080;
