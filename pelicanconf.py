@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Marcelo Cueto'
-SITENAME = 'Marcelo Cueto'
+SITENAME = 'Marcelo Cueto - Desarrollador de Software'
 SITESUBTITLE = 'Desarrollador web microservicios / Django - Django Rest Framework'
 SITEURL = ''
 
@@ -36,7 +36,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 # Social networks
 GITHUB_URL = 'https://github.com/mcueto'
 
-DEFAULT_PAGINATION = 3
+DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
