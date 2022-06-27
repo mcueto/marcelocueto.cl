@@ -6,7 +6,8 @@
     {% if HEADER_COVER %}
         <header class="intro-header padded" style="background-image: url('{{ HEADER_COVER }}')">
     {% else %}
-        <header class="intro-header padded" style="background-image: url('{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/home-bg.jpg')">
+        <!-- <header class="intro-header padded" style="background-image: url('{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/home-bg.jpg')"> -->
+        <header class="intro-header">
     {% endif %}
         <div class="container">
             <div class="row">
@@ -41,7 +42,8 @@
             </p>
 
             {% if article.summary %}
-                {{ article.summary|truncate(140) }}
+                {{ article.summary }}
+                <!-- {{ article.summary|truncate(280) }} -->
             {% endif %}
 
             {% include 'comments.html' %}

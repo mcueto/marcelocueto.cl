@@ -40,7 +40,7 @@
         <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom CSS -->
-        <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/clean-blog.min.css" rel="stylesheet">
+        <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/clean-blog.css" rel="stylesheet">
 
         <!-- Code highlight color scheme -->
         {% if COLOR_SCHEME_CSS %}
@@ -152,7 +152,17 @@
                         <li>
                             <a href="{{ GITHUB_URL }}">
                                 <span class="fa-lg">
-                                    <i class="fa fa-github fa-2x"></i>
+                                    <i class="fa-brands fa-github fa-fw fa-2x"></i>
+                                </span>
+                            </a>
+                        </li>
+                      {% endif %}
+
+                      {% if GITHUB_URL %}
+                        <li>
+                            <a href="{{ GITHUB_URL }}">
+                                <span class="fa-lg">
+                                    <i class="fa-brands fa-gitlab fa-fw fa-2x"></i>
                                 </span>
                             </a>
                         </li>
