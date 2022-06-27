@@ -12,10 +12,10 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="page-heading">
-                        <h1>{{ SITENAME }}</h1>
-                        <hr class="">
+                        <h1><i class="fa-solid fa-laptop-code fa-fw"></i> {{ SITENAME }}</h1>
+                        <!-- <hr class=""> -->
                         <span class="subheading">
-                          {{ SITESUBTITLE }}
+                            <i class="fa-solid fa-keyboard fa-fw"></i> {{ SITESUBTITLE }}
                         </span>
                     </div>
                 </div>
@@ -29,7 +29,7 @@
         <div class="post-preview">
             <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">
                 <h2 class="post-title">
-                    {{ article.title }}
+                    <i class="fa-solid fa-newspaper"></i> {{ article.title }}
                 </h2>
             </a>
 
@@ -37,7 +37,7 @@
               <!-- {% for author in article.authors %}
               <a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
               {% endfor %} -->
-              {{ article.locale_date }}
+              <i class="fa-solid fa-clock"></i> {{ article.locale_date }}
             </p>
 
             {% if article.summary %}
